@@ -1,5 +1,5 @@
 # Using Vagrant and Ansible with AWS
-# Notice: Requires a Linux Debian Netinst VM
+# Starting with a local VM with Linux Debian Netinst
 # Configure Linux
 
 apt-get update
