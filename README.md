@@ -52,7 +52,7 @@ sudo apt-get install python ansible
 
 python -V
 
-# Download and Edit Vagrant and Ansible scripts from here
+# Download and Edit Vagrant & Ansible script files from here
 
 https://github.com/rwing2k/vagrant-ansible-aws
 
