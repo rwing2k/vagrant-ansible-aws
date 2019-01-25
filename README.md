@@ -1,5 +1,5 @@
-# How to use Vagrant and Ansible with AWS
-# Requires a Linux Debian Netinst VM
+# Using Vagrant and Ansible with AWS
+# Notice: Requires a Linux Debian Netinst VM
 # Configure Linux
 
 apt-get update
@@ -11,6 +11,8 @@ apt-get install sudo
 adduser ronaldo
 
 usermod -aG sudo ronaldo
+
+su ronaldo
 
 # Install VirtualBox
 
