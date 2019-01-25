@@ -1,5 +1,6 @@
 # Using Vagrant and Ansible with AWS
-# Starting with a local VM with Linux Debian Netinst
+# A local VM with Linux Debian Netinst
+# Bringing UP and Configuring AWS Linux machines
 # Configure Linux
 
 apt-get update
