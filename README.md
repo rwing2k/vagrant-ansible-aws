@@ -1,7 +1,7 @@
 # how to use vagrant and ansible with aws
 
 # bring up a Linux Debian Netinst VM
-# confiure linux
+# configure Linux
 apt-get update
 apt-get upgrade
 apt-get install sudo
@@ -28,24 +28,24 @@ vagrant plugin expunge --force --reinstall
 vagrant plugin install vagrant-aws
 vagrant box add --force dummy https://github.com/mitchellh/vagrant-aws/raw/master/dummy.box
 
-#install Ansible
+# install Ansible
 sudo apt-get install python ansible
 python -V
 ansible --version
 vagrant --version
 
-#download code from here
+# download code from here
 https://github.com/rwing2k/vagrant-ansible-aws
 
-#bring up machines
+# bring up machines
 vagrant up --provider=aws
 
-#provision software on machines
+# provision software on machines
 ansible-playbook -i hosts provisioning.yml
 
-#connect ssh
+# connect ssh
 vagrant status
 vagrant ssh machine_name
 
-#destroy machines
+# destroy machines
 vagrant destroy -f
