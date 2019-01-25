@@ -70,5 +70,5 @@ vagrant status
 
 vagrant ssh machine_name
 
-# Cestroy machines
+# Destroy machines
 vagrant destroy -f
