@@ -47,13 +47,13 @@ vagrant plugin install vagrant-aws
 
 vagrant box add --force dummy https://github.com/mitchellh/vagrant-aws/raw/master/dummy.box
 
-# install Ansible
+# Install Ansible
 
 sudo apt-get install python ansible
 
 python -V
 
-# download code from here
+# Download Vagrant and Ansible scripts from here
 
 https://github.com/rwing2k/vagrant-ansible-aws
 
