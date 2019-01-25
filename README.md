@@ -17,9 +17,9 @@ sudo apt-get update
 sudo apt-get install virtualbox-5.2
 
 # install vagrant
-# download it from https://www.vagrantup.com/downloads.html
+# download it from here
+https://www.vagrantup.com/downloads.html
 sudo dpkg -i vagrant_2.2.3_x86_64.deb
-vagrant --version
 sudo apt-get install rsync
 vagrant plugin install vagrant-aws
 vagrant plugin install fog-aws
@@ -31,8 +31,6 @@ vagrant box add --force dummy https://github.com/mitchellh/vagrant-aws/raw/maste
 # install Ansible
 sudo apt-get install python ansible
 python -V
-ansible --version
-vagrant --version
 
 # download code from here
 https://github.com/rwing2k/vagrant-ansible-aws
