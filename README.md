@@ -53,23 +53,23 @@ sudo apt-get install python ansible
 
 python -V
 
-# Download Vagrant and Ansible scripts from here
+# Download and Edit Vagrant and Ansible scripts from here
 
 https://github.com/rwing2k/vagrant-ansible-aws
 
-# bring up machines
+# Bring up machines
 
 vagrant up --provider=aws
 
-# provision software on machines
+# Provision software on machines
 
 ansible-playbook -i hosts provisioning.yml
 
-# connect ssh
+# Connect ssh
 
 vagrant status
 
 vagrant ssh machine_name
 
-# destroy machines
+# Cestroy machines
 vagrant destroy -f
