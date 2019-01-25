@@ -26,9 +26,9 @@ sudo apt-get update
 
 sudo apt-get install virtualbox-5.2
 
-# Install Vagrant. Download it from here
+# Install Vagrant
 
-https://www.vagrantup.com/downloads.html
+Download install package from https://www.vagrantup.com/downloads.html
 
 sudo dpkg -i vagrant_2.2.3_x86_64.deb
 
