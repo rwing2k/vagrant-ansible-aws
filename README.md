@@ -70,5 +70,5 @@ vagrant status
 
 vagrant ssh machine_name
 
-# Destroy machines
+# Destroy Vagrant´s AWS machines
 vagrant destroy -f
